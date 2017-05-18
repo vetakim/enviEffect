@@ -45,5 +45,5 @@ def TEC(h, lya, B, xi=0):
     arg = B * p0 * exp( -b * h ) / b / cos(xi) + b * h
     # электронная плотность
     Is = B * p0 * S * exp( -arg ) / ht / nu
-    return TEC
+    return Is
 
